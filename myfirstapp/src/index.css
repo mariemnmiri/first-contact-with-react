@@ -1,0 +1,37 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa; 
+  min-height: 100vh;
+}
+
+/* Heading */
+.App h1 {
+  color: #343a40; 
+  margin-bottom: 30px;
+}
+
+/* Cards container */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+/* Card style */
+.cards-container .card {
+  width: 18rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cards-container .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Button style */
+.cards-container .btn {
+  margin-top: 10px;
+}
